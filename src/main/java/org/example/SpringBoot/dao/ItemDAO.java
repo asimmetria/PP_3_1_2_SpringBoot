@@ -5,14 +5,14 @@ import java.util.List;
 
 public interface ItemDAO<T> {
 
-    public List<T> index();
+    List<T> index();
 
-    public T show(int id);
+    T show(int id);
 
-    public void add(T t);
+    void add(T t);
 
-    public void update(T t);
+    void update(T t);
 
-    public void delete(int id);
+    void delete(int id);
 
 }
