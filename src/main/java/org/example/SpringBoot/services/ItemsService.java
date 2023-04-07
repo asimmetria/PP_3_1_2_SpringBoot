@@ -8,10 +8,13 @@ public interface ItemsService<T> {
     List<T> index();
 
     T show(int id);
+
     @Transactional
     void add(T t);
+
     @Transactional
     void update(T t);
+
     @Transactional
     void delete(int id);
 
